@@ -30,6 +30,7 @@
 #include "openglframework.h"
 #include <reactphysics3d/reactphysics3d.h>
 #include "Box.h"
+#include "Capsule.h"
 #include "SceneDemo.h"
 
 namespace cubesscene {
@@ -48,7 +49,7 @@ class CubesScene : public SceneDemo {
         // -------------------- Attributes -------------------- //
 
         /// All the boxes of the scene
-        std::vector<Box*> mBoxes;
+        std::vector<reactphysics3d::CollisionBody*> mObjects;
 
         /// Box for the floor
         Box* mFloor;
@@ -72,11 +73,15 @@ class CubesScene : public SceneDemo {
         /// Create the physics world
         void createPhysicsWorld();
 
+        bool keyboardEvent(int key, int scancode, int action, int mods) override;
+
         /// Destroy the physics world
         void destroyPhysicsWorld();
 
         /// Initialize the bodies positions
         void initBodiesPositions();
+
+        virtual void onContact(const CollisionCallback::CallbackData& callbackData) override;
 };
 
 }

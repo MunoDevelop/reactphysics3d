@@ -1,0 +1,212 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-03b37c930e5f7b7416a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "testbed",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-testbed-Debug-35c0b35746384783206d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "testbed",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "testbed/extern/nanogui",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-testbed.extern.nanogui-Debug-4cd8ce4d6023aa03e3c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13..3.18"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "testbed/extern/nanogui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "testbed/extern/nanogui/ext/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-testbed.extern.nanogui.ext.glfw-Debug-3f72c199afcaf6d2f7cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "testbed/extern/nanogui/ext/glfw"
+				},
+				{
+					"build" : "testbed/extern/nanogui/ext/glfw/src",
+					"jsonFile" : "directory-testbed.extern.nanogui.ext.glfw.src-Debug-2cb3bd4f6d19445e9a7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 3,
+					"source" : "testbed/extern/nanogui/ext/glfw/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ReactPhysics3D",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Testbed",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "nanogui",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@4297e78ba53a8b7b5929",
+					"jsonFile" : "target-glfw-Debug-d8a9862b260469f30e9b.json",
+					"name" : "glfw",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw_objects::@4297e78ba53a8b7b5929",
+					"jsonFile" : "target-glfw_objects-Debug-6936bd36b5163d87d7ca.json",
+					"name" : "glfw_objects",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nanogui::@c65a3bfbe9dd4174c25a",
+					"jsonFile" : "target-nanogui-Debug-ce88401d43ed06244897.json",
+					"name" : "nanogui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reactphysics3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reactphysics3d-Debug-7fb274e0d1376f4dc986.json",
+					"name" : "reactphysics3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "testbed::@7f7cab772942b747dfe8",
+					"jsonFile" : "target-testbed-Debug-e07dd42e577c7326751f.json",
+					"name" : "testbed",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/reactphysics3d/cmake-build-debug",
+		"source" : "D:/reactphysics3d"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,936 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "testbed/extern/nanogui/libnanogui.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_compile_options",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"testbed/extern/nanogui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 383,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 429,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 364,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 438,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 476,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 482,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-march=nehalem"
+				},
+				{
+					"fragment" : "-Wno-unused-result"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "NANOGUI_BUILD"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "NANOGUI_GLAD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NANOGUI_USE_OPENGL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NVG_STB_IMAGE_IMPLEMENTATION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/reactphysics3d/cmake-build-debug/testbed/extern/nanogui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/nanovg/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/glad/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/glfw/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wextra -g -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-march=nehalem"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "NANOGUI_BUILD"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "NANOGUI_GLAD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NANOGUI_USE_OPENGL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NVG_STB_IMAGE_IMPLEMENTATION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/reactphysics3d/cmake-build-debug/testbed/extern/nanogui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/nanovg/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/glad/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/glfw/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-march=nehalem"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "NANOGUI_BUILD"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "NANOGUI_GLAD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NANOGUI_USE_OPENGL"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NVG_STB_IMAGE_IMPLEMENTATION"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "D:/reactphysics3d/cmake-build-debug/testbed/extern/nanogui"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/nanovg/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/glad/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "D:/reactphysics3d/testbed/extern/nanogui/ext/glfw/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "glfw_objects::@4297e78ba53a8b7b5929"
+		}
+	],
+	"id" : "nanogui::@c65a3bfbe9dd4174c25a",
+	"name" : "nanogui",
+	"nameOnDisk" : "libnanogui.a",
+	"paths" : 
+	{
+		"build" : "testbed/extern/nanogui",
+		"source" : "testbed/extern/nanogui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				7,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				6,
+				8,
+				9,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				88
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "testbed/extern/nanogui/ext/nanovg/src/nanovg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/ext/nanovg/src/stb_image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/texture_gl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/shader_gl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/renderpass_gl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/opengl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/src/opengl_check.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "testbed/extern/nanogui/ext/glad/src/glad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/ext/glad/include/glad/glad.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/ext/glad/include/KHR/khrplatform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/context.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/init.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/input.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/window.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_init.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_joystick.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_monitor.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_time.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_thread.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/win32_window.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/wgl_context.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/egl_context.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/ext/glfw/src/CMakeFiles/glfw_objects.dir/osmesa_context.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/nanogui_resources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/common.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/widget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/widget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/theme.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/theme.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/layout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/layout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/screen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/screen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/label.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/label.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/window.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/popup.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/popup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/checkbox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/checkbox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/button.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/button.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/popupbutton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/popupbutton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/combobox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/combobox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/progressbar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/progressbar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/slider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/slider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/messagedialog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/messagedialog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/textbox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/textbox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/textarea.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/textarea.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/imagepanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/imagepanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/vscrollpanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/vscrollpanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/colorwheel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/colorwheel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/colorpicker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/colorpicker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/graph.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/graph.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/tabwidget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/tabwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/canvas.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/canvas.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/texture.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/texture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/shader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/shader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/imageview.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/imageview.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/traits.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "testbed/extern/nanogui/src/traits.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/renderpass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/formhelper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/icons.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/toolbutton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/opengl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testbed/extern/nanogui/include/nanogui/nanogui.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/testbed/extern/nanogui/nanogui_resources.cpp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

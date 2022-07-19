@@ -1,0 +1,10 @@
+^D:\REACTPHYSICS3D\BUILD\CMAKEFILES\FFEA3BFB39D25403302A6ECF583C2FD2\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/reactphysics3d -BD:/reactphysics3d/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/reactphysics3d/build/ReactPhysics3D.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

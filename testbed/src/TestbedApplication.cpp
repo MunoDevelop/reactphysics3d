@@ -109,8 +109,8 @@ void TestbedApplication::start() {
     const GLFWvidmode* mode = glfwGetVideoMode(monitor);
 
     // Window size
-    mWidth = mode->width;
-    mHeight = mode->height;
+    mWidth = (mode->width)/3;
+    mHeight = (mode->height)*2/3;
 
 #if defined(NANOGUI_USE_OPENGL)
     glfwWindowHint(GLFW_CLIENT_API, GLFW_OPENGL_API);

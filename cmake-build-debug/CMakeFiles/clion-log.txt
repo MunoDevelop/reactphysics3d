@@ -1,0 +1,11 @@
+"C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3/bin/ninja/win/ninja.exe" -G Ninja -S D:\reactphysics3d -B D:\reactphysics3d\cmake-build-debug
+-- Git Submodules update
+-- Working directory D:/reactphysics3d/testbed
+-- NanoGUI v0.1.4 
+-- NanoGUI: using OpenGL backend.
+-- NanoGUI: building static library.
+-- Using Win32 for window creation
+-- NanoGUI: not building the Python plugin.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/reactphysics3d/cmake-build-debug

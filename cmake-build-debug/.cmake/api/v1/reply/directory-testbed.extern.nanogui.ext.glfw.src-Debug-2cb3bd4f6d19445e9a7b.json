@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "testbed/extern/nanogui/ext/glfw/src",
+		"source" : "testbed/extern/nanogui/ext/glfw/src"
+	}
+}

@@ -1,0 +1,5 @@
+D:/reactphysics3d/build/CMakeFiles/reactphysics3d.dir
+D:/reactphysics3d/build/CMakeFiles/RUN_TESTS.dir
+D:/reactphysics3d/build/CMakeFiles/INSTALL.dir
+D:/reactphysics3d/build/CMakeFiles/ALL_BUILD.dir
+D:/reactphysics3d/build/CMakeFiles/ZERO_CHECK.dir
